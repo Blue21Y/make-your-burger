@@ -1,0 +1,26 @@
+.myClassCheese {
+  animation-name: topbottom;
+  animation-duration: 2s;
+}
+
+.myClass {
+  animation-name: topbottom;
+  animation-duration: 2s;
+}
+.myClassbun {
+  animation-name: topbottom;
+  animation-duration: 2s;
+}
+.myClassAll {
+  animation-name: topbottom;
+  animation-duration: 2s;
+}
+
+@keyframes topbottom {
+  from {
+    transform: translateY(-350px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
